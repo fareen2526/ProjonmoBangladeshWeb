@@ -48,7 +48,6 @@ body, html {
     border-radius: 50%; /* Make it circular if desired */
     margin-right: 10px; /* Space between the image and text */
 }
-
 /* EDITING NAVBAR COLOR */
 .custom-navbar {
     background-color: #444647; /* Change this color to whatever you like */
@@ -69,7 +68,6 @@ body, html {
     background-color: #1c4621; /* Change this to your desired background color */
     color: #ffffff; /* Change this to your desired text color */
 }
-
 /*  MOVE ICONS TO LEFT OF NAVBAR*/
 .leftIcons {
     padding-left: 880px;
