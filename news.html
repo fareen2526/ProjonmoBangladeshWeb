@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Projonmo Bangladesh</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <!-- bootstrap links: http://getbootstrap.com/docs/5.3/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div class="wrapper">
+
+    <body>
+        <!-- Background Image of homepage -->
+        <div class="background-container">
+            <div class="overlay"></div>
+            <div class="content">
+                <!-- ------------------------------------ -->
+                <div id="top-placeholder"></div>
+                <!-- ------------------------------------ -->
+
+                <!-- NEW CODE -->
+                <!-- Current Events -->
+                <div class="news-text" style="position: absolute; top: 120%; left: 5%; width: 50%;">
+                    <h1> Current Events in Bangladesh</h1>
+                    <br></br>
+                    <!-- topic 1 -->
+                    <h3>Flooding in Bangladesh - August 2024</h3>
+                    <p>Floods in Bangladesh worsen, killing 18. The flooding is due to tectonic plates uplifting
+                        in the Himalayas, increasing sediment erosion. The eroded sediment then clogs up the channel,
+                        impeding natural water flow.
+                    </p>
+                    <p>Muddy waters are up to chest height, and water floods 11 districts, submerging around 1.5
+                        million people.
+                    </p>
+                    <p>The flood was orignially thought to be "displayed inhumanity" by India, where India purposefully
+                        opened the dam without warning. However, according to CNN, the flooding was "primarily" the
+                        result
+                        of water flow in areas of the Gumti River. It was also said to be due to the overflowing of
+                        rivers
+                        and extreme monsoon rains.
+                    </p>
+
+                    <!-- topic 2 -->
+                    <br></br>
+                    <h3>Hasina Flees - August 2024</h3>
+                    <p>The Prime Minister of Bangladesh of 15+ years, Sheikh Hasina, finally resigned and later fled
+                        after nation-wide movements and dangerous protests occurred. In her replacement, an interim 
+                        government was formed to govern the country. The movement was led entirely by young students, 
+                        marking the progression of power to a new younger, determined, and dynamic generation.
+                    </p>
+                    <p> Without a proper government, new problems arise. Arms and dangerous weapons are now easily 
+                        obtainable by anyone, making robberies and crime much more prevalent. 
+                    </p>
+                    <p>Currently, the ex-PM is hiding out in India.</p>
+                </div>
+
+
+                <!-- Image -->
+                <img src="images/flood.jpeg" alt="Avatar" class="logo-image img-thumbnail"
+                    style="position: absolute; top: 130%; left: 60%; width: 30%;"></img>
+                <img src="images/sh.png" alt="Avatar" class="logo-image img-thumbnail"
+                    style="position: absolute; top: 300%; left: 60%; width: 30%;"></img>
+
+
+
+
+            </div>
+        </div>
+        <!-- ------------------------------------ -->
+        <script>
+            fetch('top.html')
+                .then(response => response.text())
+                .then(data => {
+                    console.log(data);
+                    document.getElementById('top-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading navbar:', error));
+        </script>
+        <!-- ------------------------------------ -->
+    </body>
+
+    <footer>
+        <div class="footer-content">
+            <p>Seattle, WA, United States, Washington</p>
+            <p>Email: projonmobangladesh@outlook.com</p>
+            <p>Copyright © 2024 v3b Projonmo Bangladesh of Seattle</p>
+            <p>Webmaster: Fareen Alam | fareen2526@gmail.com</p>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://kit.fontawesome.com/2a03c69c67.js" crossorigin="anonymous"></script>
+
+</html>

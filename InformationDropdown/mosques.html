@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Projonmo Bangladesh</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <!-- bootstrap links: http://getbootstrap.com/docs/5.3/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<div class="wrapper">
+
+    <body>
+        <!-- Background Image of homepage -->
+        <div class="background-container">
+            <div class="overlay"></div>
+            <div class="content">
+                <!-- ------------------------------------ -->
+                <div id="top2-placeholder"></div>
+                <!-- ------------------------------------ -->
+
+                <!-- NEW CODE -->
+                <p></p>
+                <!-- Mosque #1 -->
+                <div class="card text-center" style="width: 90%; margin: 0 auto;">
+                    <div class="card-header">
+                        17550 NE 67th Ct #207, Redmond, WA 98052 | 2100 5th Ave, Seattle, WA 98121 | 5010 Grove St.
+                        Marysville, WA 98270
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Muslim Association of Puget Sound (MAPS)</h5>
+                        <p class="card-text">With locations in Redmond, Seattle, and Snohomish, MAPS offers a great
+                            community
+                            and prayer services. The Redmond location is especially popular within the Bengladeshi
+                            community. All
+                            locations offer Islamic courses for anyone.</p>
+                        <a href="https://mapsredmond.org/" class="btn btn-primary"
+                            style="background-color: #af3333; border-color: #af3333;"
+                            onmouseover="this.style.backgroundColor='#932d2d'"
+                            onmouseout="this.style.backgroundColor='#af3333'">MAPS</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        (425) 861 - 9555
+                    </div>
+                </div>
+                <p></p>
+                <!-- Mosque #2 -->
+                <div class="card text-center" style="width: 90%; margin: 0 auto;">
+                    <div class="card-header">
+                        14230 NE 21st St, Bellevue, WA 98007
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Islamic Center of Eastside North</h5>
+                        <p class="card-text">Located in Bellevue, this Mosque offers a smaller and more tight-knit
+                            place for prayer. The also offer various programs to advance Islamic knowledge.</p>
+                        <a href="https://www.eastsidemosque.com/" class="btn btn-primary"
+                            style="background-color: #af3333; border-color: #af3333;"
+                            onmouseover="this.style.backgroundColor='#932d2d'"
+                            onmouseout="this.style.backgroundColor='#af3333'">Bellevue Masjid</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        (425) 746 - 0398
+                    </div>
+                </div>
+                <p></p>
+                <!-- Mosque #3 -->
+                <div class="card text-center" style="width: 90%; margin: 0 auto;">
+                    <div class="card-header">
+                        22011 SE 20th St, Sammamish, WA 98075
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sammamish Mosque</h5>
+                        <p class="card-text">Known for its cleanliness and good atmosphere, the Sammamish Mosque
+                            offers a community of diverse backgrounds. It offers Pre-School, Sunday School, and
+                            Quran/Arabic classes.</p>
+                        <a href="https://smamosque.org/" class="btn btn-primary"
+                            style="background-color: #af3333; border-color: #af3333;"
+                            onmouseover="this.style.backgroundColor='#932d2d'"
+                            onmouseout="this.style.backgroundColor='#af3333'">Sammamish Mosque</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        (425) 440 - 9936
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- ------------------------------------ -->
+        <script>
+            fetch('../top2.html')
+                .then(response => response.text())
+                .then(data => {
+                    console.log(data);
+                    document.getElementById('top2-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading navbar:', error));
+        </script>
+        <!-- ------------------------------------ -->
+
+    </body>
+
+    <footer>
+        <div class="footer-content">
+            <p>Seattle, WA, United States, Washington</p>
+            <p>Email: projonmobangladesh@outlook.com</p>
+            <p>Copyright © 2024 v3b Projonmo Bangladesh of Seattle</p>
+            <p>Webmaster: Fareen Alam | fareen2526@gmail.com</p>
+        </div>
+    </footer>
+</div>
+
+<script src="https://kit.fontawesome.com/2a03c69c67.js" crossorigin="anonymous"></script>
+
+</html>
