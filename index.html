@@ -22,141 +22,125 @@
 
 
 <div class="page-container">
-    <div class="wrapper">
+    <div class="wrapper" style="overflow-y: initial;">
 
         <body>
 
             <!-- BEGINNING LINE: <div>Hello World ver2 <i class="fa-brands fa-airbnb"></i></div> -->
 
-            <div class="wrapper">
-
-                <!-- Background Image of homepage -->
-                <div class="background-container">
-                    <div class="overlay"></div>
-                    <div class="content">
-
-                        <!-- ------------------------------------ -->
-                        <div id="top-placeholder"></div>
-                        <!-- ------------------------------------ -->
-
-                        <!-- Scrollable Part -->
 
 
-                        <!-- Text -->
-                        <div class="text-container"
-                            style="position: absolute; left: -15%; top: 105%; width: 100%; height: 400px;">
+            <!-- Background Image of homepage -->
+            <div class="background-container" style="flex: 1; overflow-y: scroll; display:flex; flex-direction:column;">
+                <div class="overlay"></div>
+                <div class="content" style="box-sizing: content-box; box-sizing:unset;">
+
+                    <!-- ------------------------------------ -->
+                    <div id="top-placeholder"></div>
+                    <!-- ------------------------------------ -->
+
+                    <!-- Text -->
+                    <div class="text-container" style="display: flex; flex-direction: row;">
+                        <div class="text-only" style="display: flex; flex-direction: column;">
                             <!-- left text box -->
-                            <div class="text">
+                            <div class="text" style="width: 90%;">
                                 <h1> Bangladeshi Community of the Greater Seattle Area</h1>
                                 <!-- <br></br> -->
                                 <p>Founded in 2015, Projonmo Bangladesh is a Bangladeshi non-profit that aims to connect
-                                    the
-                                    Bangladeshi
-                                    community within the Seattle area.
-                                    This includes holding cultural events such as festivals, charities, and more. </p>
+                                    the Bangladeshi community within the Greater Seattle area. This includes holding
+                                    cultural events such as festivals, charities, and more. </p>
                                 <p>Projonmo Bangladesh has successfully held many entertainment events, such as Ekushey
                                     February events, Winter Festivals, Concerts, and more. Check out "Past Events" to
-                                    see
-                                    these
-                                    events.
-                                </p>
+                                    see these events. </p>
                                 <p>Our "Information" tab includes information about local Mosques, Churches, and
-                                    Temples.
-                                    Additionally,
-                                    it includes local Bazaars and grocery stores to get Bengali food, as well as the
-                                    contact
-                                    information
-                                    of
-                                    local Bengali caterers. </p>
+                                    Temples. Additionally, it includes local Bazaars and grocery stores to get Bengali
+                                    food, as well as the contact information of ocal Bengali caterers. </p>
+                                <p>Click the "Donate" tab to donate to victims of the devastating floods in Bangladesh.
+                                </p>
 
-                                <div class="card">
-
-                                </div>
 
                             </div>
-                            <!-- right text box -->
-                            <div class="text2">
+                            <hr style="width: 90%;">
+                            </hr>
+                            <!-- 2nd text box -->
+                            <div class="text2" style="width: 90%;">
                                 <!--  style="position: absolute; top: 218%; left: 75%; width: 50%;" -->
                                 <h3> OUR GOAL</h3>
                                 <ul>
                                     <li>Strengthen Bangladeshi culture and tradition </li>
                                     <li>Foster social engagement and activity</li>
                                     <li>Serve as a forum to share information and opinions on topics relevant to its
-                                        members
+                                        members.
                                     </li>
                                 </ul>
                                 <h3> GET INVOLVED</h3>
                                 <ul>
                                     <li>Check out our News tab to see ongoing events within the community</li>
                                     <li>Connect with the Bangladeshi community by joining Facebook groups and getting
-                                        involved
-                                        in our social media </li>
+                                        involved in our social media </li>
                                     <li>Contact our members through our "Connect" tab or by joining our Facebook Group,
-                                        linked
-                                        on the right side of the navigation bar.
+                                        linked on the right side of the navigation bar.
                                     </li>
                                 </ul>
 
                             </div>
                         </div>
 
-                        <!-- Upcoming Events -->
-                        <!-- first -->
-                        <!-- <div class="card" style="width: 25%; position: absolute; left: 60%; top: 115%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Title</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional
-                                    content.</p>
-                                <a href="#" class="btn btn-primary"
-                                    style="background-color: #af3333; border-color: #af3333;"
-                                    onmouseover="this.style.backgroundColor='#932d2d'"
-                                    onmouseout="this.style.backgroundColor='#af3333'">Learn More</a>
-                            </div>
-                        </div> -->
 
                         <!-- Upcoming Events - Scrollable -->
                         <div class="upcoming-events"
-                            style="position: absolute; width: 25%; height: 500px; left: 60%; top: 115%; overflow-y: scroll; background: #af3333af; padding: 10px;">
+                            style="width: 30%; max-height: 41rem; overflow-y: scroll; background: #af3333af; padding: 10px; margin-top: 0.2%; align-self: flex-start;">
                             <nav id="navbar-example2" class="navbar navbar-light bg-light" style="border-radius: 15px">
-                                <a class="navbar-brand" href="#" style="padding: 10px;">Upcoming Events</a>
-                                <!-- <ul class="nav nav-pills">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#fat">@fat</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#mdo">@mdo</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
-                                            role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#one">one</a>
-                                            <a class="dropdown-item" href="#two">two</a>
-                                            <div role="separator" class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#three">three</a>
-                                        </div>
-                                    </li>
-                                </ul> -->
+                                <a class="navbar-brand" href="#" style="padding: 10px;"><b>Upcoming Events</b></a>
                             </nav>
                             <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
                                 <br></br>
-                                <h4 id="fat">@fat</h4>
-                                <p>...</p>
-                                <h4 id="mdo">@mdo</h4>
-                                <p>...</p>
-                                <h4 id="one">one</h4>
-                                <p>...</p>
-                                <h4 id="two">two</h4>
-                                <p>...</p>
-                                <h4 id="three">three</h4>
-                                <p>...</p>
+                                <!-- event 1 -->
+                                <h4 id="fat">Tahson Khan Live - October 6 2024</h4>
+                                <p>We would like to invite you to "Tahsan Khan Live in Concert," the first-ever in
+                                    Seattle. Please mark your calendar on October 6 for a memorable music event.</p>
+                                <p>To buy tickets, visit this <a
+                                        href="https://ci.ovationtix.com/35655/pr/1207930/pe/11517535?ai&fbclid=IwY2xjawFcnQpleHRuA2FlbQIxMAABHfT60SEaOuYzqHA5OFU6z01DsWYQXGL6m6Py5-8AeqY74FG2fOviArUx-w_aem_fTBYy63AJXx9o-4rWBo-VQ"
+                                        target="_blank">Ticketing Link</a>.</p>
+                                        <br></br>
+                                <!-- event 2 -->
+                                <h4 id="one">Bhindeshi Bijoya Sommiloni with Chandrabindoo - October 19 2024</h4>
+                                <p>Visit this <a
+                                    href="https://www.facebook.com/events/404185452661176/"
+                                    target="_blank">Ticketing Link</a> to learn more about Sommiloni's concert featuring Chandrabindoo on Saturday, October 19 at Historic Everett Theatre. </p>
+                                    <br></br>
+                                <!-- event 3 -->
+                                <h4 id="mdo">Bangla Movie Show - September 8 2024</h4>
+                                <p>We are happy to bring the superheat Bangla movie "Toofan" to Seattle. Below is the link for tickets.</p>
+                                <p>To buy tickets, visit this <a
+                                    href="https://www.siff.net/cinema/in-theaters/bangla-movie-show-toofan?fbclid=IwY2xjawFcnodleHRuA2FlbQIxMQABHZS_7T_WrUjaWoe_HNRrIwrbWEiS1b9_jgZHUA7hbTlnoAxf57PLTtks5A_aem_ei-B72HRyjcf1zNSUWI-dg"
+                                    target="_blank">Ticketing Link</a>.</p>
+                                    <br></br>
+                                <!-- event 4 -->
+                                <!-- <h4 id="two">two</h4>
+                                <p>...</p> -->
+
                             </div>
                         </div>
 
-
                     </div>
+
+
+                    <div class="footer-content" style="max-width: 100%; text-align: center; line-height: 1.2; margin: 0 auto; 
+                    background-color: #d3d3d3; min-height: 160px; padding: 20px 0; position: relative; 
+                    flex-shrink: 0; color: black;">
+                        <p>Seattle, WA, United States, Washington</p>
+                        <p>Email: projonmobangladesh@outlook.com</p>
+                        <p>Copyright © 2024 v3b Projonmo Bangladesh of Seattle</p>
+                        <p>Webmaster: Fareen Alam | fareen2526@gmail.com</p>
+                    </div>
+
                 </div>
+
             </div>
+
+
+
 
             <!-- ------------------------------------ -->
             <script>
@@ -170,16 +154,14 @@
             </script>
             <!-- ------------------------------------ -->
 
-            <footer>
 
-                <div class="footer-content">
-                    <p>Seattle, WA, United States, Washington</p>
-                    <p>Email: projonmobangladesh@outlook.com</p>
-                    <p>Copyright © 2024 v3b Projonmo Bangladesh of Seattle</p>
-                    <p>Webmaster: Fareen Alam | fareen2526@gmail.com</p>
-                </div>
 
-            </footer>
+
+
+            <!-- <footer>
+
+
+            </footer> -->
 
         </body>
 

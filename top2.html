@@ -2,7 +2,13 @@
 <!-- this means the html folders that are in InformationDropdown and PastEventsDropdown -->
 
 <div>
-    <img src="../images/skyline2.png" alt="Avatar" class="header-image"></img>
+    <!-- <img src="../images/skyline2.png" alt="Avatar" class="header-image"></img> -->
+    <picture>
+        <source srcset="../images/skyline2small.png" media="(max-width: 600px)">
+        <source srcset="../images/skyline2.png" media="(min-width: 601px)">
+        <img src="../images/skyline2.png" alt="Avatar" class="header-image">
+    </picture>
+
     <div class="title">
         <h1>Projonmo Bangladesh</h1>
     </div>
@@ -10,7 +16,12 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
         <div class="container-fluid">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <img src="../images/bdeshflag.png" alt="Avatar" class="logo-image img-thumbnail"></img>
+
+
+            <!-- <img src="../images/bdeshflag.png" alt="Avatar" class="logo-image img-thumbnail"></img> -->
+            <img style="size: 180%;" src="../images/img1.jpeg" alt="Avatar" class="logo-image img-thumbnail"></img>
+
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,7 +44,7 @@
                             <li><a class="dropdown-item" href="../InformationDropdown/mosques.html">Mosques</a></li>
                             <li><a class="dropdown-item" href="../InformationDropdown/churches.html">Churches</a></li>
                             <li><a class="dropdown-item" href="../InformationDropdown/temples.html">Temples</a></li>
-                            <li><a class="dropdown-item" href="../InformationDropdown/bazaar.html">Bazaars</a></li>
+                            <li><a class="dropdown-item" href="../InformationDropdown/bazaar.html">Bazars</a></li>
                             <li><a class="dropdown-item" href="../InformationDropdown/caterer.html">Caterers</a></li>
                         </ul>
                     </li>
