@@ -38,10 +38,11 @@
     color: #ffffff; 
 }
 
+
 /* PHONE SCREEN SIZE */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .text-container {
-        flex-direction: column; /* Stack text boxes vertically */
+        flex-direction: column !important; /* Stack text boxes vertically */
     }
 
     .text-only, .upcoming-events {
@@ -51,25 +52,22 @@
 
     .upcoming-events {
         margin-top: 20px; /* Add margin to separate from text boxes */
+        width: 90% !important;
+    }
+
+    /* shrink youtube videos on phone */
+    .ytVids {
+        width: 30%;
     }
 }
 
 .text-container {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: row; /* Stack items vertically */
     align-items: center;
     padding: 20px;
 }
-@media only screen and (min-width: 769px) {
-    .container {
-        flex-direction: row; /* Align items side by side on larger screens */
-        justify-content: space-between;
-    }
-    
-    .text, .text2 {
-        width: 45%; /* Adjust width for side-by-side layout */
-    }
-}
+
 
 body, html {
     height: 100%;
@@ -172,6 +170,11 @@ body, html {
     flex-direction: column;
     min-height: 100vh; /* Ensures the container takes up the full height of the viewport */
 }
+
+/* For WebKit-based browsers (Chrome, Safari, Opera) - HIDES SCROLLBAR */
+/* *::-webkit-scrollbar {
+    display: none;
+} */
 
 
 
