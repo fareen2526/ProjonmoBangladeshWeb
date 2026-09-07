@@ -62,9 +62,12 @@
 }
 
 .text-only {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex: 2;
+    box-sizing: border-box; */
+    flex: 3;
+    width: 0; /* forces flexbox to respect the flex-basis over content width */
     box-sizing: border-box;
 }
 
