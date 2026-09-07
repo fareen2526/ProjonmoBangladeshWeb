@@ -82,14 +82,8 @@
 }
 
 .upcoming-events {
-    /* flex: 1;
-    max-height: 50rem; 
-    overflow-y: auto;
-    background: #af3333af;
-    padding: 10px;
-    box-sizing: border-box; */
 
-    max-height: 50rem; /* increase this until it visually matches */
+    max-height: 43rem; /* increase this until it visually matches */
     overflow-y: auto;
     background: #af3333af;
     padding: 10px;
