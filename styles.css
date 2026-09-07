@@ -53,6 +53,7 @@
     .upcoming-events {
         margin-top: 20px; /* Add margin to separate from text boxes */
         width: 90% !important;
+        border-radius: 10px;
     }
 
     /* shrink youtube videos on phone */
@@ -83,7 +84,7 @@
 
 .upcoming-events {
 
-    max-height: 43rem; /* increase this until it visually matches */
+    max-height: 35rem; /* increase this until it visually matches */
     overflow-y: auto;
     background: #af3333af;
     padding: 10px;
