@@ -84,12 +84,13 @@
 
 .upcoming-events {
 
-    max-height: 39rem; /* increase this until it visually matches */
+    max-height: 42rem; /* increase this until it visually matches */
     overflow-y: auto;
     background: #af3333af;
     padding: 10px;
     box-sizing: border-box;
     min-width: 0;
+    border-radius: 10px;
 }
 
 body, html {
