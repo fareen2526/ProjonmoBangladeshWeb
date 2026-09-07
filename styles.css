@@ -82,7 +82,7 @@
 
 .upcoming-events {
     flex: 1;
-    max-height: 41rem;
+    max-height: 60rem; /* increase this until it visually matches */
     overflow-y: auto;
     background: #af3333af;
     padding: 10px;
