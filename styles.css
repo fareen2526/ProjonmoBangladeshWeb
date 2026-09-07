@@ -63,8 +63,10 @@
 
 .text-container {
     display: flex;
-    flex-direction: row; /* Stack items vertically */
-    align-items: center;
+    flex-direction: row;
+    align-items: stretch;  /* makes both columns equal height */
+    justify-content: space-between;
+    gap: 20px;
     padding: 20px;
 }
 
