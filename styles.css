@@ -66,27 +66,35 @@
     flex-direction: column;
     flex: 2;
     box-sizing: border-box; */
-    flex: 3;
-    width: 0; /* forces flexbox to respect the flex-basis over content width */
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
+    min-width: 0; /* prevents content from overflowing its grid column */
 }
 
 .text-container {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch; /* makes both columns equal height */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     gap: 20px;
     padding: 20px;
+    align-items: stretch;
     box-sizing: border-box;
 }
 
 .upcoming-events {
-    flex: 1;
-    max-height: 60rem; /* increase this until it visually matches */
+    /* flex: 1;
+    max-height: 50rem; 
+    overflow-y: auto;
+    background: #af3333af;
+    padding: 10px;
+    box-sizing: border-box; */
+
+    max-height: 50rem; /* increase this until it visually matches */
     overflow-y: auto;
     background: #af3333af;
     padding: 10px;
     box-sizing: border-box;
+    min-width: 0;
 }
 
 body, html {
