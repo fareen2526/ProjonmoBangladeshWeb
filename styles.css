@@ -61,15 +61,30 @@
     }
 }
 
+.text-only {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    box-sizing: border-box;
+}
+
 .text-container {
     display: flex;
     flex-direction: row;
-    align-items: stretch;  /* makes both columns equal height */
-    justify-content: space-between;
+    align-items: stretch; /* makes both columns equal height */
     gap: 20px;
     padding: 20px;
+    box-sizing: border-box;
 }
 
+.upcoming-events {
+    flex: 1;
+    max-height: 41rem;
+    overflow-y: auto;
+    background: #af3333af;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
 body, html {
     height: 100%;
