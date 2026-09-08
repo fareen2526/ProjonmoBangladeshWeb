@@ -84,7 +84,7 @@
 
 .upcoming-events {
 
-    max-height: 42rem; /* increase this until it visually matches */
+    max-height: 41rem; /* increase this until it visually matches */
     overflow-y: auto;
     background: #af3333af;
     padding: 10px;
